@@ -16,27 +16,29 @@ Dieses Plugin dient als technische Grundlage für alle UD-Block-Plugins und enth
 
 ```text
 ud-blank-block/
+├─ README.md
+├─ assets/
 ├─ block.json
-├─ ud-blank-block.php
 ├─ includes/
-│ ├─ block-register.php
-│ ├─ enqueue.php
-│ ├─ helpers.php
-│ └─ render.php
-├─ src/
-│ ├─ js/
-│ │ ├─ editor.js
-│ │ ├─ save.js
-│ │ ├─ editor.js
-│ │ └─ frontend.js
-│ ├─ css/
-│ │ ├─ editor.scss
-│ │ └─ frontend.scss
-│ └─ assets/
-├─ webpack.config.js
+│  ├─ block-register.php
+│  ├─ enqueue.php
+│  ├─ helpers.php
+│  └─ render.php
 ├─ package.json
-├─ package-lock.json
-└─ verzeichnisliste.sh
+├─ src/
+│  ├─ css/
+│  │  ├─ editor.scss
+│  │  └─ frontend.scss
+│  ├─ js/
+│  │  ├─ edit.js
+│  │  ├─ editor.js
+│  │  ├─ frontend.js
+│  │  ├─ save.js
+│  │  └─ utils/
+├─ ud-blank-block.php
+├─ verzeichnisliste.sh
+└─ webpack.config.js
+
 ```
 
 ## Installation
@@ -65,5 +67,5 @@ npm run start
 
 ## Lizenz
 
-GPL v2 or later  
+GPL v2 or later
 https://www.gnu.org/licenses/gpl-2.0.html
