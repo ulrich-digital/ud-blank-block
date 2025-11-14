@@ -1,0 +1,38 @@
+/* =============================================================== *\
+   UD Blank Block – Frontend Styles
+   (Darstellung im Live-Frontend)
+\* =============================================================== */
+
+.wp-block-ud-blank-block {
+	display: block;
+	padding: 24px;
+	margin: 2rem auto;
+	text-align: center;
+	background: #f9f9f9;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	color: #444;
+	font-size: 16px;
+	line-height: 1.6;
+	box-sizing: border-box;
+
+	p {
+		margin: 0;
+	}
+
+	.ud-blank-placeholder {
+		font-style: italic;
+		color: #777;
+	}
+}
+
+/* =============================================================== *\
+   Responsive Anpassungen (optional)
+\* =============================================================== */
+
+@media (max-width: 600px) {
+	.wp-block-ud-blank-block {
+		padding: 16px;
+		font-size: 15px;
+	}
+}
